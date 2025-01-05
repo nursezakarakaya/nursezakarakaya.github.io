@@ -1,0 +1,68 @@
+ .audio-container { /* ÖNEMLİ NOT!!! Kullanılan müziklerin hepsi AZALI'ye aittir. Youtube'dan bütün orjinal müziklerine ulaşabilirsiniz, favori sanatçılarımdandır kendisi :) https://www.youtube.com/channel/UC9UKPs9ZisfhMJdalnETLRg*/
+  text-align: center;
+  margin-top: 20px;
+ }
+ audio {
+  width: 300px;
+ }
+ body {
+  a:visited {color:#145355};
+  background-color: #fcf3dc;
+ }
+ .header-container {
+ display: flex;
+ align-items: center;
+ justify-content: center;   /* Başlık ve resim birleşik olarak ortalanır */
+ gap: 10px;                 /* Resim ve başlık arasında boşluk */
+ }
+ .character-table {
+    width: 50%;               /* Tablo genişliği %50 */
+    margin-left: 20px;        /* Sol tarafa biraz boşluk ekleyelim */
+    text-align: left;         /* İçeriği sola hizalayalım */
+    border-collapse: collapse; /* Kenarları birleştirelim */
+    font-size: 16px;          /* Yazı boyutunu belirleyelim */
+}
+ h1 { 
+ font-family: Agency FB, Bahnschrift, Arial;
+ color: #b00b1e; 
+ font-size: 36px; /*boyutu büyütmek için*/
+ }
+ h2 { /*yıldızlı açıklamalar için*/
+ font-family: Bahnschrift, Arial;
+ font-weight: bold;
+ font-style: italic;
+ color: #000000; 
+ font-size: 16px;
+ }
+ h3 {
+ font-family: Bahnschrift, Arial;
+ color: #004d12;
+ font-size: 16px;
+ }
+ h4 {
+ font-family: Bahnschrift, Arial;
+ color: #145355;
+ }
+ p {  
+ font-family: Bahnschrift, Arial;
+ }
+ table {
+    border-collapse: collapse; /* Tablonun kenarlarını birleştiriyomuş*/
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+ }
+
+ tr, td {
+    border: 2px solid #d94c5c;
+	font-family: Bradley Hand ITC, Bahnschrift, Arial;
+	font-size: 20px;
+    padding: 10px;
+ }
+
+ tr {
+    background-color: #f4f4f4;
+	a:link {color:#145355};
+	a:visited {color:#145355};
+    font-weight: bold;
+ }
